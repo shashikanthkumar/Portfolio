@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" href="styles.css">
+
+        <!-- =====BOX ICONS===== -->
+        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+        <title>Portfolio website complete</title>
+    </head>
+    <body>
+        <!--===== HEADER =====-->
+        <header class="l-header">
+            <nav class="nav bd-grid">
+                <div>
+                    <a href="#" class="nav__logo">Shashikanth kumar S.</a>
+                </div>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                        <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                        <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                        <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-menu'></i>
+                </div>
+            </nav>
+        </header>
+
+        <main class="l-main">
+            <!--===== HOME =====-->
+            <section class="home bd-grid" id="home">
+                <div class="home__data">
+                    <h1 class="home__title">Hello there!<br>I'm <span class="home__title-color">Shashikanth</span><br></h1>
+                    <h4> ASPIRING ENGINEER | DEVELOPER </h4>
+
+                    <a href="ResumeDoc (1).pdf" class="button">Download CV</a>
+                </div>
+                <div class="home__social">
+                    <a href="https://www.linkedin.com/in/shashikanth-kumar-65568b249/" class="home__social-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAXlJREFUWEftl79KxEAQh78rLKzUJzg7O1GwsfJ8A2210E6s1DfQFzi1EysF7fUJFEFLUfwDWvkEoj6B/GQjIZlkc7AhB9mBENidnfnutzO7uQ5DZp0h4yEC+XakSKFpYAuYAl6APvDmCxZi3gKaBW6B0VSCT2AeeA+RtCyGBXQGrBqLjoDNJoDuAamUtRtgoQmgc2DFSHwMbDQBNAfcASOp5D+uhl6bAFJOQW27Lnt2XfZUN4zit/JgnAS+3OMV2VJoBtg3Vu4AD27c57PkDtZeJs4FcArobZoFpCBXhvcicO3Gy3zWgTWPFIeuRnNuoYH0y6VOFVu2lAoNVAUk8dH25w7gOoEegXGgW0I5kS32OoAuAdWROkumetNWjnnq8m86NNA3kLR5Ov+B67oskzpXc/8WGkjqWEVd1JV7wG6dQLkEnmMiAiW7EbcsUSLWkO9yjQpFhdQtuot0OWbtBPhwg0U+UjBRMb2+sn8rP/IH+Whr59+ggRT6Beu7hCW83hLTAAAAAElFTkSuQmCC"/></a>
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&to=shashikanthkumarsole@gmail.com&tf=cm" class="home__social-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAXhJREFUWEftl/8xRDEUhb/tQAd0QAeoABWgg9UBFaACVIAO6IAObAc6YI5JTNxJXn68fWuZ3H/ezOa9m++ek9xkZ6xZzNaMhw6Uc6Qr9C8U2gGOXSV3wEuuqsrxLZP/LfzerqET4BLYCF46By4qJ029Pnf5/fg7sB8WbYGegN1ItgfgFFCCllCBKlQF23gG9vyPFuhjYDZJe9RgoZbADaBnKr45aoB8Msl+XShTbAnEPh0FpIQ5C2WRVDksBB8NpHlSFsqae0C7qTSWAhSz0O6iXwHyFupZapEFXapCpSoMvff3gRauvM1GOXLfVyukbqr1cQscVEI9ug6tVhE7BZSuCci395qddAZcuQJSx9JoICVQr1HFKQtlkRQNbwqTAglK3ThmobfIHsSTA4WNUSe5IrTILrWVAXkL9Ry6zK0UqGTjdaCcSk0KaQ1sRzL/uGbmZk6Mp4Bew9ukvTGq+amRWaipgASjRivYr+j/XHN2d4W6QjkFcuOfzQdYJfT1Xo8AAAAASUVORK5CYII="/></a>
+                    <a href="https://github.com/shashikanthkumar" class="home__social-icon"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAmJJREFUWEfdloFNHEEMRT8VABUAFQAVJFRAqCBQQZIKklQQqIBQQegAqCDQAXSQEtCTZk8zPnvWe3soJyydVrr12t9/vj3e0obZ1obh0bsBdCTpsySeO+UJ2Y+S/pXnraSHqScwlaEfkr4UEJlcgLuUdFWAjn6TBfRJ0i9J+6MRfYdnSd8kwVrXMoBg5ftYoOR72AJYaGOAfhetJPOl3Ih5EXn2AH0tx5TKMtEJTRF/ySJAaOaP8T4rYj6X9CEJgC6DETR058Rb0lQEiAB7VYCnqrX5+2OpkDa/N4l4xzgASJ0Qv7oQchzb7vMAwcC1SUKlJJpjFhCxfkqiaRbmAbLs4AwTVDPHPEDMqd0eIKj+62RdB0Mc36kT+6Q+dstQ1FkHRZhzGGKowvS2CdJ0nAXk0boOdgYMHktN/AygJeHNoMmb+o0+LSBP0G8NiPoWODKAwqm6AlPRvRgC+h8aeqm3CMtQ1JrMCmbGXCOG7bKuqKO2X4eOouNqYluGosEIM6wM3E+rWC9udzCSrO40LtXDCsGwjuKTMfZtVt7mvqo+bPTTtFvlVF+usIKuYKYe+4ifn7crA4Kj52Yfu5DZHilyYdH6wbAamOEjAAGgZqs3wTObJuxwlE2zRICorF6ouMswqoEpjpJjiJZ2b8GzR9xoZ3jZW2Hro+vuwY6YbEHWJezaKUs+oAiUEXQP0I0kinVtDBAfeRsk/7uUlywRoNF5lgFEDhKgn1rUUwAhYAqz+/cSS1lAw4cEpaUB1gM0DEKAIP70QJ0KaADG9jempYzPbIYy03mWz6oMzUra+3jjAL0C4r6DJZifSEYAAAAASUVORK5CYII="/></a>
+                </div>
+
+                <div class="home__img">
+                    <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                        <mask id="mask0" mask-type="alpha">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                        </mask>
+                        <g mask="url(#mask0)">
+                            <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
+                            <svg width="360" height="360" xmlns="http://www.w3.org/2000/svg">
+                                <!-- Define the clip path for a circular crop -->
+                                <defs>
+                                  <clipPath id="circleClip">
+                                    <circle cx="180" cy="180" r="180" />
+                                  </clipPath>
+                                </defs>
+                                
+                                <!-- Use the clip path to crop the image -->
+                                <image class="home__blob-img" x="0" y="0" width="360" height="360" href="profilepic.jpg" clip-path="url(#circleClip)" />
+                              </svg>
+                              
+                        </g>
+                    </svg>
+                </div>
+            </section>
+
+            <!--===== ABOUT =====-->
+            <section class="about section " id="about">
+                <h2 class="section-title">About</h2>
+
+                <div class="about__container bd-grid">
+                    <div class="about__img">
+                        <img src="profilepic.jpg" alt="">
+                    </div>
+                    
+                    <div>
+                        <h2 class="about__subtitle">I'm Shashikanth.</h2>
+                        <p style="font-family:courier;">A dedicated Computer Science student with a growing interest in Data Science and a willingness to explore various fields. I enjoy learning about different technologies and aim to create applications that are fun, innovative, and user-friendly. I focus on writing code that is easy to read and improve, and I am committed to continuously enhancing my skills.
+                            <br><br>
+                            In addition to my technical abilities, I am passionate about working collaboratively. On a team, I help clarify goals and encourage effective communication, leading to better results and a positive experience for everyone involved. I am eager to apply my knowledge and enthusiasm to real-world projects and contribute to creating impactful solutions.
+                            
+                            </p>           
+                    </div>                                   
+                </div>
+            </section>
+
+            <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+                <h2 class="section-title">Skills</h2>
+
+                <div class="skills__container bd-grid">          
+                    <div>
+                        <h2 class="skills__subtitle">Professional Skills</h2>
+                        <p class="skills__text"; style="font-family:cursive;">From basics of computer to Python to Database Management, here's how I'd like to rate myself.</p>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Python</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">Database Management</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">75%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">SQL</span>
+                            </div>
+                            <div class="skills__bar skills__css">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">70%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">HTML</span>
+                            </div>
+                            <div class="skills__bar skills__html">
+
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                        <div class="skills__data">
+                            <div class="skills__names">
+                                <i class='bx bxs-paint skills__icon'></i>
+                                <span class="skills__name">CSS</span>
+                            </div>
+                            <div class="skills__bar skills__ux">
+                                
+                            </div>
+                            <div>
+                                <span class="skills__percentage">80%</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div>              
+                        <img src="techstack1.png" alt="" class="skills__img">
+                    </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-paint skills__icon'></i>
+                            <span class="skills__name">Javascrpt</span>
+                        </div>
+                        <div class="skills__bar skills__ux">
+                        </div>
+                        <div>
+                            <span class="skills__percentage">80%</span>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            
+            <!--===== WORK =====-->
+            <section class="work section" id="work">
+                <h2 class="section-title">Projects</h2>
+
+                <div class="work__container bd-grid">
+                   
+                    
+                    <a href="https://github.com/shashikanthkumar" class="work__img">
+                        <img src="studentgradingsystem.jpg" alt="">
+                    </a>
+                    <a href="https://github.com/shashikanthkumar" class="work__img">
+                        <img src="student.jpg" alt="">
+                    </a>
+                    
+                    <a href="https://github.com/shashikanthkumar" class="work__img">
+                        <img src="std.jpg" alt="">
+                    </a>
+                </div>
+            </section>
+            
+        </main>
+
+        <!--===== FOOTER =====-->
+        <footer class="footer">
+            <p class="footer__title">Contact Me </p>
+            <div class="footer__social">
+                <a href="https://www.linkedin.com/in/shashikanth-kumar-65568b249/" class="footer__icon"><i class='bx bxl-linkedin-square'></i></a>
+                <a href="https://mail.google.com/mail/u/0/?fs=1&to=shashikanthkumarsole@gmail.com&tf=cm" class="footer__icon"><i class='bx bxl-gmail-square'></i></a>
+                <a href="https://github.com/shashikanthkumar" class="footer__icon"><i class='bx bxl-github' ></i></a>
+            </div>
+            
+        </footer>
+
+
+
+        <!--===== MAIN JS =====-->
+        <script src="main.js"></script>
+    </body>
+</html>
+
